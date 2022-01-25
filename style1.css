@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+}
+/************************ HEADER*****************/
+header{
+    background-color: rgba(0, 0, 0, 0.842);
+    color: white;
+    position: sticky;
+    width: 100%;
+    height: 370px;
+}
+.header_content h2{
+    margin: 20px;
+    margin-left: 20px;
+    font-family: Mistral;
+    font-family: Bahnschrift SemiBold ;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header_content nav{
+    display: flex;
+    margin: 20px;
+}
+
+
+nav{
+   
+    display: flex;
+    flex-wrap: wrap;
+    padding: auto;
+    font-family: sans-serif;
+}
+nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: 0.6s ease-in-out;
+    
+}
+nav :hover{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: rgb(0, 255, 179);
+    border-radius: 3px;
+    transition: 0.6s ease-in-out; 
+}
+nav .active{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 179);
+    border-radius: 3px;
+    transition: 0.6s ease-in-out;
+}
+
+nav .active2{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.884);
+    border-radius: 3px;
+    transition: 0.6s ease-in-out;
+}
+/************************ END HEADER*****************/
+
+
+/*************************** BANIERRE HEADER******************/
+.main{
+    text-align: center;
+    text-transform: uppercase;
+}
+.main h1{
+    font-size: 2.2rem;
+}
+
+.main .sign{
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 179);
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+/*************************** END BANIERRE HEADER******************/
+
+/***************************section content***********************/
+section .p2{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: Mistral ;
+}
+.section_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content_section{
+    width: 270px;
+    height: 340px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    margin: 10px;
+}
+.content_section img{
+    width: 200px;
+}
+.content_section .check{
+    padding: 10px;
+    background-color: rgb(0, 255, 179);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.about{
+    padding: 10%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+/***************************END section content***********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about_text h2{
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    text-align: right;
+    font-family: Agency FB;
+    padding: 6px;
+    
+}
+
+.about_text p{
+    color: rgb(56, 56, 56);
+    text-align: right;
+}
+.about_text .about_link{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 179);
+    border-radius: 4px;
+    margin-right: 30px;
+    float: right;
+}
+
+
+
+/**********************FOOTER***************/
+footer{
+    list-style-type: none;
+    color: rgb(128, 128, 128);
+    background-color: rgb(32, 32, 32);
+    height: 200px;
+    font-size: 15px;
+}
+footer .p{
+    text-align: center;
+}
+
+.footer_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.footer_content a{
+    text-decoration: none;
+    text-transform: lowercase;
+    color: rgb(129, 126, 126);
+}
+/********************** END FOOTER***************/
